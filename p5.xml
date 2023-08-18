@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="prgm5.css"?>
+
+<STUDENTDATA>
+
+ <STUDENT>
+  <USN>USN   : 4MT20IS044</USN>
+  <NAME>NAME : Snehal</NAME>
+  <COLLEGE>COLLEGE : MITE</COLLEGE>
+  <BRANCH>BRANCH :ISE</BRANCH>
+  <YEAR>YEAR : 2020</YEAR>
+  <EMAIL>E-MAIL : snehal@gmail.com</EMAIL>
+ </STUDENT>
+
+ <STUDENT>
+  <USN>USN : 4MT20IS041</USN>
+  <NAME>NAME : shreya</NAME>
+  <COLLEGE>COLLEGE : MITE</COLLEGE>
+  <BRANCH>BRANCH :ISE</BRANCH>
+  <YEAR>YEAR : 2020</YEAR>
+  <EMAIL>E-MAIL : shreya@gmail.com</EMAIL>
+ </STUDENT>
+
+ <STUDENT>
+  <USN>USN   : 4MT20IS038</USN>
+  <NAME>NAME : kavya</NAME>
+  <COLLEGE>COLLEGE : MITE</COLLEGE>
+  <BRANCH>BRANCH :ISE</BRANCH>
+  <YEAR>YEAR : 2020</YEAR>
+  <EMAIL>E-MAIL :kavya@gmail.com</EMAIL>
+ </STUDENT>
+ 
+</STUDENTDATA>

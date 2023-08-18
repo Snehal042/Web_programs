@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>String and Number Functions</title>
+ <script>
+ function findLeftMostVowelPosition(str) {
+ var vowels = ['a', 'e', 'i', 'o', 'u'];
+ for (var i = 0; i < str.length; i++) {
+ if (vowels.includes(str[i].toLowerCase())) {
+ return i + 1;
+ }
+ }
+ return -1; // If no vowel is found
+ }
+ function reverseDigits(number) {
+ var reversedNumber = parseInt(number.toString().split('').reverse().join(''));
+ return reversedNumber;
+ }
+ function demonstrateStringProblem() {
+ var str = prompt('Enter a string:');
+ var position = findLeftMostVowelPosition(str);
+ alert('Left-most vowel position: ' + position);
+ }
+ function demonstrateNumberProblem() {
+ var num = parseInt(prompt('Enter a number:'));
+ var reversedNum = reverseDigits(num);
+ alert('Number with reversed digits: ' + reversedNum);
+ }
+ </script>
+</head>
+<body>
+ <h3>String Problem:</h3>
+ <button onclick="demonstrateStringProblem()">Find Left-most Vowel Position</button>
+ <h3>Number Problem:</h3>
+ <button onclick="demonstrateNumberProblem()">Reverse Digits of Number</button>
+</body>
+</html>
